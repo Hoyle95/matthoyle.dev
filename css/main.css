@@ -22,7 +22,7 @@ header, main, footer {
 
 body {
 	font-family:sans-serif;
-	background-color:#222;
+	background-color:#102029;
 	display:flex;
 	flex-direction:column;
 }
