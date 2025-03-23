@@ -2,14 +2,18 @@
 
 <html lang="en">
 	<head>
-		<script defer data-domain="matthoyle.dev" src="https://plausible.io/js/script.file-downloads.outbound-links.js"></script>
+		<script>
+		    !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init capture register register_once register_for_session unregister unregister_for_session getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty createPersonProfile opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing debug getPageViewId captureTraceFeedback captureTraceMetric".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+		    posthog.init('phc_Wkgx8oMysRvT4LAcnqz9JDRxLAIrUpYF12z6UXaV5Jj', {
+		        api_host: 'https://eu.i.posthog.com',
+		        person_profiles: 'always',
+		    })
+		</script>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 		<title>Apps & Games by Matt Hoyle</title>
 		<meta name="description" content="Apps and games made my me, for fun, Check it out!">
 		<meta name="author" content="Matt Hoyle">
-
 		<link rel="icon" href="./images/favicon.ico" type="image/x-icon">
 		<link rel="stylesheet" href="./css/fontawesome.min.css">
 		<link rel="stylesheet" href="./css/solid.min.css">
@@ -17,14 +21,12 @@
 		<link rel="stylesheet" href="./css/keyframes.css">
 		<link rel="stylesheet" href="./css/main.css">
 	</head>
-
 	<body>
 		<header>
 			<img onclick="window.location.href='index.html'" src="./images/logo.png" alt="Cartoon depiction of me sitting in the lotus position wearing headphones.">
 			<h1>Matt Hoyle</h1>
 			<h2>Making Apps & Games for fun.</h2>
 		</header>
-
 		<main>
 			<section class="panel">
 				<article>
@@ -57,7 +59,6 @@
 				<div class="button" onclick="window.location.href='index.html'"><i class="fa-solid fa-caret-left"></i><span>Back</span></div>
 			</section>
 		</main>
-
 		<footer>
 		</footer>
 	</body>
