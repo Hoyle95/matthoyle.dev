@@ -22,7 +22,7 @@ header, main, footer {
 
 body {
 	font-family:sans-serif;
-	background-color:#101020;
+	background-color:rgb(30, 45, 70);
 	display:flex;
 	flex-direction:column;
 }
@@ -151,6 +151,8 @@ article {
 		font-family:"Jua", sans-serif;
 		font-size: 25px;
 		color:#333;
+		text-align: center;
+		padding-bottom:10px;
 	}
 	img {
 		border-radius: 10px;
