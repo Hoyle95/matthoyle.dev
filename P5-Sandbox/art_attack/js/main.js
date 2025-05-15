@@ -58,7 +58,6 @@ function loadQuote() {
     const randomQuote = neilMotivationalQuotes[Math.floor(Math.random() * neilMotivationalQuotes.length)];
     const p = document.createElement("p");
     p.innerHTML = `"${randomQuote}" <br> - <a href="https://en.wikipedia.org/wiki/Neil_Buchanan">Neil Buchanan</a>`;
-
     const mainElement = document.querySelector("main");
     mainElement.appendChild(p);
 }
